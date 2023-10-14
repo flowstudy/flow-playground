@@ -53,9 +53,7 @@ Rename `.env.local` to `.env`
 
 Start the API (Flow Emulator and services)
 
-```
-docker run -e FLOW_DEBUG=true -e FLOW_SESSIONCOOKIESSECURE=false -p 8080:8080 gcr.io/dl-flow/playground-api:latest
-```
+see https://github.com/flowstudy/flow-playground-api
 
 Start the React app
 
